@@ -12,7 +12,7 @@ public class Bajaj {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.bajajauto.com/");
 		Reporter.log("Bajaj class is executed",true);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.close();
 	}
 	
